@@ -9,6 +9,8 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.render('myPage.hbs');
 })
-
+app.get('/w', (req, res) => {
+  res.send("Welcome Walid :D");
+})
 
 app.listen(port);
